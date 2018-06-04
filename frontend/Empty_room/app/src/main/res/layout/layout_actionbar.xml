@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <ImageButton
+        android:id="@+id/btn_menu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_menu"/>
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:background="@drawable/ic_back"/>
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView_day"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="월요일" />
+
+    <ImageButton
+        android:id="@+id/btn_setting"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_settings"/>
+
+
+</RelativeLayout>

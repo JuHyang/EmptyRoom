@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="빈 강의실">
+        <menu>
+            <item
+                android:title="  - 월요일" />
+            <item
+                android:title="  - 화요일" />
+            <item
+                android:title="  - 수요일" />
+            <item
+                android:title="  - 목요일" />
+            <item
+                android:title="  - 금요일" />
+
+        </menu>
+    </item>
+</menu>
